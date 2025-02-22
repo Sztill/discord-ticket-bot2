@@ -1,0 +1,6 @@
+echo "[build]" > railway.toml
+echo "builder = \"nixpacks\"" >> railway.toml
+echo "buildCommand = \"npm install\"" >> railway.toml
+echo "[deploy]" >> railway.toml
+echo "startCommand = \"npm start\"" >> railway.toml
+echo "restartPolicyType = \"ON_FAILURE\"" >> railway.toml
