@@ -1,0 +1,7 @@
+echo { > vercel.json
+echo   "version": 2, >> vercel.json
+echo   "builds": [{ >> vercel.json
+echo     "src": "index.js", >> vercel.json
+echo     "use": "@vercel/node" >> vercel.json
+echo   }] >> vercel.json
+echo } >> vercel.json
